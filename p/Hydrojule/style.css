@@ -27,6 +27,15 @@ body {
     min-height: 80px;
 }
 
+.hrr {
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    margin-top: 2px;
+    background-color: white;
+}
+
 .logo {
     color: white;
     font-size: 18px;
@@ -116,12 +125,12 @@ body {
 }
 
 .btn-up {
-    padding: 5px 20px;
+    padding: 5 20px;
     vertical-align: middle;
     border-color: #7971EA;
     background: #7971EA;
     border-radius: 30px;
-    font-size: 15px;
+    font-size: 5px;
     color: #ffffff;
     font-family: 'Hind Guntur', sans-serif;
 }
@@ -242,7 +251,7 @@ h5 {
     display: inline-block;
     padding-top: 8px;
     position: absolute;
-    bottom:20px;
+    bottom: 20px;
 }
 
 .rrow-container {
@@ -253,9 +262,11 @@ h5 {
 .people-row {
     padding: 3% 0;
 }
-.hero{
-    margin-top:-90px;
+
+.hero {
+    margin-top: -90px;
 }
+
 .rrow {
     display: table;
     content: "";
@@ -297,9 +308,12 @@ h5 {
         margin-bottom: 50px;
         position: relative;
     }
+    .hrr {
+        display: none;
+    }
     .people-header {
         padding-bottom: 10px;
-           }
+    }
     /* hero{
         margin-top:-90px;
     } */
@@ -361,10 +375,11 @@ h5 {
         position: relative;
     }
 }
+
 .people-header {
     padding-bottom: 20px;
-    height:100px;
-       }
+    height: 100px;
+}
 
 .contain {
     text-align: center;
