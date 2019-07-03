@@ -562,8 +562,8 @@ myAboutBody {
 .slide {
     animation-name: slide;
     -webkit-animation-name: slide;
-    animation-duration: 1s;
-    -webkit-animation-duration: 5s;
+    animation-duration: .3s;
+    -webkit-animation-duration: 1s;
     visibility: visible;
 }
 

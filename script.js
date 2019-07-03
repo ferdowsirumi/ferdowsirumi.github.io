@@ -25,7 +25,7 @@ window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
   showGoToTopButton();
-  animateBlocks();
+ // animateBlocks();
 }
 function showGoToTopButton() {
   if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 500) {
