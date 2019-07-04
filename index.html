@@ -13,6 +13,13 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init("user_GqJCWEakQddbSVk5k4l10");
+       })();
+    </script>
+
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="80">
@@ -53,14 +60,14 @@
             </div>
             <div class="column">
                 <h3>CSS</h3>
-                <p>I achieve responsive layout using custom css, using css library such as bootstrap as well as use utility
-                    based CSS!
+                <p>I achieve responsive layout using custom css, using css library such as bootstrap as well as utility based
+                    CSS!
                 </p>
             </div>
             <div class="column">
                 <h3>JAVASCRIPT</h3>
-                <p>Utilize the most used and most powerful language to provde life to your web page trough element transofrmation,
-                    animation and object manipulation</p>
+                <p>Utilize the most used and most powerful language to provde life to your web page trough element transofrmations,
+                    animations and object manipulation</p>
             </div>
         </div>
     </div>
@@ -253,24 +260,24 @@
                     </div>
                 </div>
                 <div class="col-sm-6 bg-light">
-                    <form action="" method="post" class="form-box pt-5">
+                    <form id="myform"  method="post" class="form-box pt-5">
                         <h3 class="h4 text-dark mb-4 text-primary">
                             <span style="color:rgb(38, 144, 201);font-weight: bold;">Send a hi5!</span>
                         </h3>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Email Addresss">
+                            <input type="text" id="from_email" class="form-control" placeholder="Email Addresss">
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Name">
+                            <input type="text" id="from_name" class="form-control" placeholder="Name">
                         </div>
                         <div class="form-group mb-4">
-                            <textarea type="text" line="2" aria-multiline="true" class="form-control" placeholder="HI Ferdowsi,..."></textarea>
+                            <textarea type="text" id="message_html_value" line="3" aria-multiline="true" class="form-control" placeholder="HI Ferdowsi,..."></textarea>
                         </div>
                         <div class="form-group mt-4">
-                            <p class="btn">Send
-                            </p>
+                            <button class="btn" name="emailButton" id="emailButton">Send</button>
                         </div>
                     </form>
+                    
                 </div>
             </div>
         </div>
@@ -341,7 +348,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src=" script.js ">
-    </script>
+    </script>   
 </body>
 
 </html>
