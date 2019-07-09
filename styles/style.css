@@ -266,6 +266,9 @@ h1 {
     .imgBox {
         flex: 40%;
     }
+    .center a {
+        margin-top:15px;
+    }
 }
 
 @media only screen and (max-width:768px) {
@@ -274,6 +277,9 @@ h1 {
     }
     h1 {
         font-size: 26px;
+    }
+    .center a {
+       margin-top:15px;
     }
 }
 
